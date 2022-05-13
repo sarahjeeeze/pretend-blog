@@ -18,7 +18,7 @@
                         {% include './icons/plus.svg' %}   
                     </a>
                     <h2><p class="top-menu">Hello {{ user.username }}
-                        <br><small>(<a href="{% url 'logout' %} class="top-menu">Log out</a>)</small></a>
+                        <br><small>(<a href="{% url 'logout' %}"" class="top-menu">Log out</a>)</small></a>
                 {% else %}
                     <a href="{% url 'login' %}" class="top-menu">
                         {% include './icons/lock-fill.svg' %}
